@@ -390,6 +390,10 @@ img{
   width: 95%;
 }
 
+.skills__tableau{
+  width: 70%;
+}
+
 .skills__tk{
   width: 50%;
 }
@@ -543,6 +547,7 @@ img{
   position: relative;
   overflow:hidden;
   border-radius: .5rem;
+  height: 350px;
 }
 
 .works__data{
@@ -554,7 +559,7 @@ img{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background:rgba(44, 135, 204, 0.7);
+  background:rgba(44, 135, 204, 0.8);
   border-radius: .5rem;
   transition: .3s;
 }
@@ -570,8 +575,9 @@ img{
 }
 
 .works__title{
-  font-size: var(--h2-font-size);
+  font-size: var(--h3-font-size);
   color:var(--first-color-lighten);
+  text-align: center;
 }
 
 .works__img:hover .works__data{
@@ -735,7 +741,9 @@ img{
     padding: 3rem 0;
     border-radius: .5rem;
   }
+
 }
+
 
 @media screen and (min-width: 1024px){
   body{
